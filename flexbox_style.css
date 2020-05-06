@@ -1,0 +1,238 @@
+body{
+    margin: 0;
+    padding:0;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 100%;
+}
+.box1{
+    width: 100%;
+}
+.box1 img{
+    width: 80px;
+    height:50px;
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    background-color: #494848;
+    line-height: 20px;
+}
+.navbar ul{
+    float: right;
+    margin-right: 30px;
+}
+.navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #C38375;
+    padding: 40px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.logo img{
+    position: relative;
+    margin: 10px;
+    margin-left: 10px;
+}
+.navbar ul li a:hover{
+    
+    background-color: #A93660;
+}
+.box2{
+    text-align: center;
+    border-bottom: black;
+    background-color: #DFDCD4;
+}
+.box2 button{
+    color: #A93660;
+    background-color: #FFCFBE;
+    border-radius: 10px;
+    line-height: 40px;
+    padding: 4px 35px 4px 35px;
+    font-weight: bold;
+}
+.box2 img{
+    height:350px;
+    width: 400px; 
+}
+.box2 hr{
+    border:none;
+    background-color: #C38375;
+    height: 2px;
+}
+.box3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+    text-align: center;
+    height: 500px;
+    background-color: #DFDCD4;
+ }
+ .box3 h1{
+    text-align: center;
+}
+.feature-one{
+   display: flex;
+   margin-left: 15%;
+}
+.feature-two{
+    display: flex;
+    margin-left: 15%;
+}
+ .feature1,.feature2,.feature3,.feature4,.feature5,.feature6{
+    padding:15px;
+    margin-top:0;
+    line-height: 15px;
+    font-size: 16px;
+    flex-basis: 25%;
+ }
+ .box3 h2{
+    margin-left: 15%;
+ }
+ i{
+     margin-left: 5%;
+     float:left;
+     right: 30px;
+     top: 15px;
+     position: relative;
+     font-size: 40px;
+ }
+ .fa-arrow-alt-circle-right{
+     color: #A93660;
+ }
+ .box4{
+     box-sizing: border-box;
+     line-height: 30px;
+     background-color: #C38375;
+     text-align: left;
+     flex-shrink: 5%;
+     height:500px;
+ }
+ .box4 h1{
+    margin-left: 10%;
+    margin-right: 40%;
+ }
+ .box4 p{
+     margin-left: 10%;
+ }
+ .box4 button{
+    color: #A93660;
+    background-color: #FFCFBE;
+    margin-left: 10%;
+    border-radius: 10px;
+    line-height: 40px;
+    padding: 4px 35px 4px 35px;
+    font-weight: bold;
+ }
+ .box4 img{
+     float: right;
+     width: 500px;
+     height:280px;
+     margin-right: 8%;
+     margin-top: -20%;
+ }
+ .box5{
+     text-align: center;
+     line-height: 25px;
+     background-color: #DFDCD4;
+     height:450px;
+ }
+ .box5 hr{
+    border:none;
+    background-color: #C38375;
+    height: 2px;
+    width: 90px;
+ }
+ .user{
+    display: flex;
+    margin-left: 40%;
+}
+.user img{
+    width:60px;
+    height: 60px;
+}
+ .box6{
+     text-align: center;
+     height: 300px;
+     background-color: #C38375
+ }
+ .box6 p{
+     font-size: 15px;
+ }
+.box6 input{
+    width: 400px;
+    height: 24px;
+    padding: 5px;
+    margin: 20px 0 5px;
+}
+.box6 button{
+    color: #A93660;
+    background-color: #FFCFBE;
+    border-style: solid;
+    line-height: 40px;
+    padding: 4px 35px 4px 35px;
+    font-weight: bold;
+}
+.box7{
+    height: 180px;
+    background-color: white;
+}
+.box8{
+    display: inline-flex;
+    text-align: center;
+    line-height: 25px;
+    justify-content: space-around;
+    background-color: #494848;
+    width: 100%;
+    text-decoration: none;
+    list-style: none;
+}
+.box8 h1{
+    font-size: 20px;
+    color: #C38375;
+    font-weight: bold;
+}
+.box8 li{
+    color: antiquewhite;
+}
+
+button:hover{
+    color: black;
+    background-color: #A93660;
+}
+i:hover{
+    color: #8B224E;
+}
+span{
+    font-weight: bold;
+}
+.logo i:hover{
+    background-color:#C38375; 
+}
+
+@media screen and (max-width: 1400px){
+
+    .feature-one{
+        display: flex;
+        margin-left: 15%;
+     }
+     .feature-two{
+         display: flex;
+         margin-left: 15%;
+     }
+      .feature1,.feature2,.feature3,.feature4,.feature5,.feature6{
+         padding:15px;
+         margin-top:0;
+         line-height: 15px;
+         font-size: 16px;
+         flex-basis: 25%;
+      }
+}
